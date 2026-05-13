@@ -8,10 +8,10 @@ import pandas as pd
 # Load Model
 # ============================================
 
-model = joblib.load("/content/linear_regression_model.pkl")
+model = joblib.load("linear_regression_model.pkl")
 
 # Load Preprocessor / Scaler
-preprocessor = joblib.load("/content/preprocessor_scaler.pkl")
+preprocessor = joblib.load("preprocessor_scaler.pkl")
 
 # ============================================
 # Streamlit App Title
